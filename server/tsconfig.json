@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "module": "commonjs",
+    "sourceMap": false,
+    "declaration": false,
+
+    "noUnusedParameters": false,
+
+    "emitDecoratorMetadata": true,
+
+    "baseUrl": ".",
+    "paths": { "*": ["typings/*"] }
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

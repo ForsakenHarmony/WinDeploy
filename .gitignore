@@ -1,0 +1,3 @@
+# Project exclude paths
+/server/node_modules/
+/wrt/node_modules/

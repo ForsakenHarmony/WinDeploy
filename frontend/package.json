@@ -1,0 +1,16 @@
+{
+  "name": "win-deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "../node_modules/.bin/ts-node-dev frontend/src/index.ts"
+  },
+  "dependencies": {
+    "robot3": "^0.2.9"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
+  }
+}
